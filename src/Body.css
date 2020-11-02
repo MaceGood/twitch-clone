@@ -1,0 +1,22 @@
+.body {
+  background-color: rgb(255, 153, 0);
+  flex: 1;
+  display: flex;
+  height: 100vh;
+  overflow: scroll;
+}
+
+.body__left {
+  width: 96%;
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.body::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.body {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
